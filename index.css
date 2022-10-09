@@ -1,0 +1,276 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background: url("img/ali-inay-y3aP9oo9Pjc-unsplash.jpg") no-repeat center right/cover;
+    height: 25%;
+    margin-right: 0px;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 8vw;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.header {
+    background-color: #ffffffc7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    padding-top: 3rem;
+    padding-right: 4rem;
+    list-style-type: none;
+    display: flex;
+}
+
+/* .navbarli {
+    font-size: 100px;
+} */
+
+.navbar li a {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgb(10, 119, 119);
+    font-size: 1.4em;
+    text-decoration: none;
+    padding: 34px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: #4008c4;
+}
+
+.home{
+    text-align: center;
+    padding:12rem;
+    height: 10rem;
+    background-color: #ffffff96;
+}
+.home h1{
+    color: #e00446;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+.home p{
+    font-weight: bold;
+    color: #ff2600;
+    font-size: 1.5rem;
+}
+
+.aboutusheading{
+    border-bottom-right-radius: 55px;
+    border-top-right-radius: 55px;
+    margin-top: 5em;
+    background-color: rgb(168 157 138);
+    width: 30%;
+    text-align: center;
+    height: 15vh;
+}
+.aboutusheading h1{
+    padding: 2rem;
+    /* margin-left: 40px; */
+}
+/* .about{
+    background-image: url('img/albert-YYZU0Lo1uXE-unsplash.jpg')no-repeat center right/cover;
+    height: 25%;
+} */
+.about p{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 550;
+    font-size: 1rem;
+}
+
+.aboutfollowers {
+    display: flex;
+    background-color: orange;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.instagram,
+.facebook,
+.youtube {
+    margin-right: 8rem;
+}
+
+.instagram h2,
+.facebook h2,
+.youtube h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.menuheading{
+    border-bottom-right-radius: 55px;
+    border-top-right-radius: 55px;
+    margin-top: 5em;
+    background-color: rgb(168 157 138);
+    width: 30%;
+    text-align: center;
+    height: 15vh;
+}
+.menuheading h1{
+    padding: 2rem;
+    /* margin-left: 40px; */
+}
+.menu .sec1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.menu .sec2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.menunames{
+    border: 2px solid red;
+    border-radius: 25px;
+    margin: 20px;
+    background-color: #e5e5e5;
+    padding: 5px;
+}
+
+.pizzaimg img{
+    padding: 40px 40px 40px 40px;
+    width: 50%;
+}
+
+.pizzaimg img:hover {
+    margin-left: 10px;
+    background: #e9ddbe;
+    width: 60%;
+    height: auto;
+    line-height: 90px;
+    color: #fff;
+}
+
+.pizzaname{
+    font-weight: bold;
+    text-align: center;  
+}
+.pizzabtn{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5rem;
+}
+.pizzabtn .btn{
+    border-radius: 15px;
+    width: 15vw;
+    height: 5vh;
+    background-color: blue;
+    color:antiquewhite;
+    font-weight: bold
+} 
+.pizzabtn .btn:hover{
+    background-color:rgb(30, 95, 148);
+    cursor: pointer;
+}
+.footer {
+    padding: 30px;
+    background-color: #333;
+}
+
+.footer1 {
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+}
+
+.shop,
+.paymentmethods,
+.Connectme {
+    width: 33.3%;
+}
+
+.paymentgateways{
+    margin-top: 30px;
+}
+.paymentgateways i{
+    color: aliceblue;
+    margin-right: 15px;
+}
+
+.connect {
+    margin-top: 55px;
+}
+
+.socialmedia,
+.contactus {
+    margin-top: 25px;
+}
+
+.mail {
+    margin-top: 20px;
+}
+
+.mail a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.mail a:hover {
+    color: orange;
+}
+
+.number a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.number a:hover {
+    color: orange;
+}
+
+.mail,
+.number {
+    font-size: 18px;
+}
+
+.footline {
+    border-style: solid;
+    border-color: orange;
+    background-color: orange;
+    margin: auto auto;
+    margin-top: 10px;
+    width: 100px;
+    border-width: 2px;
+}
+
+.foottext {
+    margin-top: 25px;
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+
+.footer2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.navigate li a:hover {
+    color: orange;
+}
+
+.socialmedia i {
+    color: aliceblue;
+    margin-right: 10px;
+}
+.socialmedia i:hover {
+    color: orange;
+}

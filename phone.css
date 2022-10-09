@@ -1,0 +1,109 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    padding-top: 0rem;
+    padding-right: 0rem;
+    margin-bottom: 10px;
+}
+.navbar li a {
+    font-size: 1em;
+    padding: 34px 20px;
+}
+.home {
+    padding: 5rem;
+    height: 12rem;
+}
+.home h1{
+    font-size: 3rem;
+}
+.home p{
+    font-size: 1.2rem;
+}
+.aboutusheading {
+    margin-top: 4em;
+    width: 50%;
+    height: 10vh;
+}
+.aboutusheading h1 {
+    padding: 1rem;
+    margin-left: 5px;
+}
+.about p{
+    font-size: 0.8rem;
+}
+/* .aboutfollowers {
+    padding: 0px;
+} */
+.aboutfollowers {
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.instagram,
+.facebook,
+.youtube {
+    margin-right: 0rem;
+    padding: 10px;
+}
+
+.instagram h2,
+.facebook h2,
+.youtube h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.instagram h3, .facebook h3, .youtube h3 {
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.menuheading{
+    margin-top: 4em;
+    width: 50%;
+    height: 10vh;
+}
+.menuheading h1{
+    padding: 1rem;
+    margin-left: 15px;
+}
+.menu .sec1{
+    flex-direction: column;
+}
+.menu .sec2{
+    flex-direction: column;
+}
+.pizzabtn .btn{
+    width: 50vw;
+    height: 5vh;
+} 
+.shop,
+.paymentmethods,
+.Connectme {
+    width: 100%;
+}
+.paymentgateways{
+    margin-bottom: 30px;
+}
+.footer1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer2 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.mail,
+.number {
+    font-size: 1em;
+}
+.foottext {
+    font-size: 1em;
+}
